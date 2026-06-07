@@ -1,0 +1,42 @@
+.DS_Store
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Swift Package Manager / Xcode
+.build/
+*.xcodeproj/
+DerivedData/
+
+# Local packaged app output
+frontend/dist/
+
+# Generated icon intermediates; keep app-icon-source.png and AppIcon.icns
+frontend/Resources/AppIcon.iconset/
+
+# Local app data, logs, audits, and backups
+.local/
+backups/
+audit/
+*.log
+
+# Workspace-only planning and run artifacts
+CONTEXT.md
+PROJECT_INDEX.md
+decisions.md
+plans/
+designs/
+runs/
+
+# User-specific config exports
+config.toml
+*.local.toml

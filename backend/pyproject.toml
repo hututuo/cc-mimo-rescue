@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cc-mimo-rescue"
+version = "0.1.0"
+description = "Backend CLI for Claude Code + CC Switch + MiMo session rescue and routing configuration."
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+cc-mimo-rescue = "cc_mimo_rescue.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
