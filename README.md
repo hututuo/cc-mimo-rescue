@@ -15,13 +15,15 @@
 
 ## 一行命令安装
 
-推荐用一行命令安装到当前用户的 `~/Applications`，不需要 sudo：
+推荐使用下面这一条命令安装。
+
+只需要执行这一条，不需要执行后面的其它命令，也不需要管理员权限：
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/hututuo/cc-mimo-rescue/main/install.sh | bash
 ```
 
-这会下载 GitHub Release 里的 `.app.zip`，解压到：
+这条命令会下载 GitHub Release 里的 `.app.zip`，解压到：
 
 ```text
 ~/Applications/CC MiMo Rescue.app
@@ -29,11 +31,17 @@ curl -fsSL https://raw.githubusercontent.com/hututuo/cc-mimo-rescue/main/install
 
 然后自动打开 App。
 
-如果你想装到系统级 `/Applications`：
+默认安装到当前用户目录 `~/Applications`，所以不会要求输入管理员密码。
+
+### 可选：安装到系统 Applications
+
+下面这个命令不是必须执行。只有你想把 App 安装到系统级 `/Applications` 时才需要用它：
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/hututuo/cc-mimo-rescue/main/install.sh | INSTALL_DIR=/Applications bash
 ```
+
+如果你的系统对 `/Applications` 写入有限制，这个可选安装方式可能会要求管理员权限。
 
 ## 手动下载
 
