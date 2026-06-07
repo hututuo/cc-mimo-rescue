@@ -11,7 +11,13 @@
 
 界面默认中文，也可以在右上角切换到 English。
 
-<img src="frontend/Resources/app-icon-preview.png" alt="CC MiMo Rescue icon" width="96">
+<p align="center">
+  <img src="frontend/Resources/app-icon-preview.png" alt="CC MiMo Rescue icon" width="96">
+</p>
+
+<p align="center">
+  <img src="docs/assets/main-screenshot.png" alt="CC MiMo Rescue main screen" width="100%">
+</p>
 
 ## 一行命令安装
 
