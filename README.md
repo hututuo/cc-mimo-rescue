@@ -13,19 +13,34 @@
 
 ![CC MiMo Rescue icon](frontend/Resources/app-icon-source.png)
 
-## 下载和安装
+## 一行命令安装
 
-从 GitHub Releases 下载最新的 `.dmg` 文件：
+推荐用一行命令安装到当前用户的 `~/Applications`，不需要 sudo：
 
-```text
-CC-MiMo-Rescue-0.1.0.dmg
+```bash
+curl -fsSL https://raw.githubusercontent.com/hututuo/cc-mimo-rescue/main/install.sh | bash
 ```
 
-安装方式：
+这会下载 GitHub Release 里的 `.app.zip`，解压到：
 
-1. 双击打开 DMG。
-2. 把 `CC MiMo Rescue.app` 拖到 `Applications`。
-3. 从 Applications 启动。
+```text
+~/Applications/CC MiMo Rescue.app
+```
+
+然后自动打开 App。
+
+如果你想装到系统级 `/Applications`：
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/hututuo/cc-mimo-rescue/main/install.sh | INSTALL_DIR=/Applications bash
+```
+
+## 手动下载
+
+也可以从 GitHub Releases 下载：
+
+- `CC-MiMo-Rescue-0.1.0-mac.zip`：推荐，解压后直接得到 `.app`；
+- `CC-MiMo-Rescue-0.1.0.dmg`：备用，打开后拖到 Applications。
 
 当前版本没有 Apple Developer ID 签名和 notarization。如果 macOS 提示无法打开：
 
@@ -34,6 +49,8 @@ CC-MiMo-Rescue-0.1.0.dmg
 3. 再确认一次打开。
 
 这是 macOS 对未公证开源 App 的常见提示。
+
+如果 DMG 显示“文件损坏”，优先使用上面的一行命令安装方式。
 
 ## 隐私承诺
 
