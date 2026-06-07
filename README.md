@@ -50,7 +50,31 @@ curl -fsSL https://raw.githubusercontent.com/hututuo/cc-mimo-rescue/main/install
 
 这是 macOS 对未公证开源 App 的常见提示。
 
-如果 DMG 显示“文件损坏”，优先使用上面的一行命令安装方式。
+## DMG 显示“文件损坏”怎么办
+
+优先使用上面的一行命令安装方式，它会自动清理下载标记。
+
+如果你仍然想用 DMG 安装，并且 macOS 提示“文件损坏”，可以临时关闭 Gatekeeper：
+
+```bash
+sudo spctl --master-disable
+```
+
+注意：
+
+- `sudo` 和 `spctl` 中间有一个空格；
+- `spctl` 和 `--master-disable` 中间也有一个空格；
+- 输入命令后会要求输入电脑密码；
+- 输入密码时终端不会显示星号或字符，这是正常的；
+- 直接输入密码，然后按回车即可。
+
+安装完成后，建议重新开启 Gatekeeper：
+
+```bash
+sudo spctl --master-enable
+```
+
+这个命令是 macOS 的全局安全开关，不只影响本软件。更推荐使用一行命令安装或 zip 安装。
 
 ## 隐私承诺
 
