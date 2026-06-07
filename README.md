@@ -23,6 +23,9 @@
 curl -fsSL https://raw.githubusercontent.com/hututuo/cc-mimo-rescue/main/install.sh | bash
 ```
 
+<br>
+<br>
+
 这条命令会下载 GitHub Release 里的 `.app.zip`，解压到：
 
 ```text
