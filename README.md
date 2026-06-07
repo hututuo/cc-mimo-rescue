@@ -215,4 +215,4 @@ frontend/    SwiftUI macOS 前端
 
 ## License
 
-License not selected yet.
+MIT License. See [LICENSE](LICENSE).
