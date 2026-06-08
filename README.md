@@ -13,17 +13,18 @@
 
 ## 交流群
 
-<p align="center">
-  <img src="docs/assets/wechat-group-qr.jpeg" alt="HTT 的仓库交流群二维码" width="260">
-</p>
-
-<p align="center">
-  欢迎扫码加入群聊，讨论使用问题、互相交流，也会发布产品发布和更新通知。
-</p>
-
-<p align="center">
-  <img src="frontend/Resources/app-icon-preview.png" alt="CC MiMo Rescue icon" width="96">
-</p>
+<table align="center">
+  <tr>
+    <td align="center" width="180">
+      <img src="frontend/Resources/app-icon-preview.png" width="96" alt="CC MiMo Rescue icon"><br>
+      <strong>CC MiMo Rescue</strong>
+    </td>
+    <td align="center" width="280">
+      <img src="docs/assets/wechat-group-qr.jpeg" width="220" alt="HTT 的仓库交流群二维码"><br>
+      欢迎扫码加入群聊，讨论使用问题、交流想法，也会发布产品发布和更新通知。
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <img src="docs/assets/main-screenshot.png" alt="CC MiMo Rescue main screen" width="100%">
