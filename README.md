@@ -11,6 +11,16 @@
 
 界面默认中文，也可以在右上角切换到 English。
 
+## 交流群
+
+<p align="center">
+  <img src="docs/assets/wechat-group-qr.jpeg" alt="HTT 的仓库交流群二维码" width="260">
+</p>
+
+<p align="center">
+  欢迎扫码加入群聊，讨论使用问题、互相交流，也会发布产品发布和更新通知。
+</p>
+
 <p align="center">
   <img src="frontend/Resources/app-icon-preview.png" alt="CC MiMo Rescue icon" width="96">
 </p>
