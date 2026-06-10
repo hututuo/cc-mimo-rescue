@@ -2,6 +2,7 @@ import SwiftUI
 
 @main
 struct CCMimoRescueUIApp: App {
+    @NSApplicationDelegateAdaptor(AppDelegate.self) private var appDelegate
     @StateObject private var store = AppStore()
 
     var body: some Scene {
@@ -17,6 +18,11 @@ struct CCMimoRescueUIApp: App {
         .windowStyle(.hiddenTitleBar)
         .commands {
             CommandGroup(replacing: .newItem) {}
+            CommandGroup(after: .appInfo) {
+                Button("Check for Updates...") {
+                    appDelegate.updaterController.checkForUpdates(nil)
+                }
+            }
         }
     }
 }
